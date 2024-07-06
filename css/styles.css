@@ -10,6 +10,15 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ #siri {
+  border-radius: 50%;
+ }
+ #wat {
+  border-radius: 50%;
+ }
+.img-fluid {
+  align-items: center !important;
+}
 :root {
   --bs-blue: #1D809F;
   --bs-indigo: #6610f2;
@@ -235,11 +244,11 @@ sup {
 }
 
 a {
-  color: #1D809F;
+  color: #1d9f74;
   text-decoration: underline;
 }
 a:hover {
-  color: #17667f;
+  color: #0aee3b;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11476,10 +11485,16 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/ดีไซน์ที่ยังไม่ได้ตั้งชื่อ\ \(1\).png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.Education {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/ดีไซน์ที่ยังไม่ได้ตั้งชื่อ\ \(2\).png");
+}
+.text {
+  color: #000;
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
